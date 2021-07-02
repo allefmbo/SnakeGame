@@ -1,0 +1,74 @@
+body {
+    height: 95vh;
+    width: 95vw;
+    background-color: black;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(44, 139, 44)
+}
+
+.snaketitulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.painel {
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.painel .score {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.painel .score p {
+    margin-right: 10px;
+    margin-bottom: 0;    
+}
+
+.painel button {
+    color: #fff;
+    background: rgb(44, 139, 44);
+    border: none;
+    border-radius: 5px;
+    
+    padding: 10px 20px;
+
+    transition: 0.2s;
+}
+
+.painel button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.painel .speed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.painel .speed p {
+    margin-bottom: 4px;
+}
+
+.footer{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
